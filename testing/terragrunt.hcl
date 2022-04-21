@@ -1,7 +1,8 @@
 # Testing environment base
 
 terraform {
-    source = "${get_env("HOME")}/today/aws-cluster-ecs-apps-terraform//"
+    #source = "${get_env("HOME")}/today/aws-cluster-ecs-apps-terraform//"
+    source = "git::https://github.com/josefloressv/aws-cluster-ecs-apps-terraform.git"
 }
 
 remote_state {
