@@ -18,7 +18,7 @@ inputs = {
 
     # Service
     service_name = "svc-app01-nodejs"
-    service_desired_count = 1
+    service_desired_count = 2
     service_tags = {
         "Name": "svc-app01-nodejs"
     }
