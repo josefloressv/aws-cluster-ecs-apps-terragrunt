@@ -19,7 +19,7 @@ inputs = {
     # General
     aws_account_id = "838127195462"
     aws_region = "us-east-1"
-    aws_vpc_id = "vpc-0223110d1147a124c"
+    aws_vpc_id = "vpc-0cea2704062fcee57"
     base_tags = {
         env         = "Testing"
         createdFrom = "terraform"
@@ -37,13 +37,13 @@ inputs = {
 
     # Service defaults
     cluser_name = "TestingFargateCluster"
-    service_subnets = ["subnet-0c8e939ad74e293ea", "subnet-0775349bcd435664b"]
-    service_sg_ids = ["sg-04b32d08a76b19335"]
+    service_subnets = ["subnet-0cc837a0674845f10", "subnet-045ac18328c741b31"]
+    service_sg_ids = ["sg-0302babfac9f14aaa"]
     service_desired_count = 2
 
     # Target group and listener defaults
-    tg_alb_arn = "arn:aws:elasticloadbalancing:us-east-1:838127195462:loadbalancer/app/TestingFargateALB/26743943e19301a3"
-    listener_arn = "arn:aws:elasticloadbalancing:us-east-1:838127195462:listener/app/TestingFargateALB/26743943e19301a3/cd59e7a184b6bc82"
+    tg_alb_arn = "arn:aws:elasticloadbalancing:us-east-1:838127195462:loadbalancer/app/TestingFargateALB/e0028cfa14086733"
+    listener_arn = "arn:aws:elasticloadbalancing:us-east-1:838127195462:listener/app/TestingFargateALB/e0028cfa14086733/e7a7bf12ca0b5b81"
     tg_port = "80"
 
 }
