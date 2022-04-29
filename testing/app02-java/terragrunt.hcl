@@ -14,7 +14,7 @@ inputs = {
     # Container definition
     container_name = "java"
     container_image_name = "app02-java"
-    container_port = "3000"
+    container_port = "8080"
 
     # Service
     service_name = "svc-app02-java"
