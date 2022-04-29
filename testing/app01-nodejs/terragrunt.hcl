@@ -9,6 +9,7 @@ inputs = {
         "Name": "app01-nodejs",
         "language": "nodejs",
     }
+    task_cpu_architecture = "X86_64" # "ARM64"
 
     # Container definition
     container_name = "nodejs"
