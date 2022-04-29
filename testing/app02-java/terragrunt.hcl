@@ -26,7 +26,7 @@ inputs = {
     # Target group and listener
     tg_name = "app02-java-tg"
     listener_context_path = "/app02/*"
-    tg_health_check_path = "/app02/health"
+    tg_health_check_path = "/app02/actuator/health"
     tg_tags = {
         "Name": "app02-java-tg"
     }
